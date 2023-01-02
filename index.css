@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374151;
+    color: white;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111827;
+}
+
+.home {
+    width: 255px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.guest {
+    width: 255px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h3 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color: #881337;
+    margin: 0;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+li {
+    padding: 10px;
+    border: 5px solid #881337;
+    margin-right: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;  
+    font-size: 20px;        
+    color: #881337;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #9CA3AF;
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;  
+    font-size: 45px;        
+    color: #881337;          
+}
